@@ -1,87 +1,128 @@
 define({
   name: "CUHK",
-  width: 1600, zboundary: [420, 510],
-  shadow: "bg/cuhk/s.png", shadowsize: [37, 9],
-  layer: [
-    {
+  width: 3200,
+  zboundary: [840, 1020],
+  shadow: "bg/cuhk/s.png",
+  shadowsize: [74, 18],
+  layer: [{
       pic: "bg/cuhk/floor1.png",
-      transparency: 0, width: 1170, x: 0, y: 362
-    },
-    {
+      transparency: 0,
+      width: 2340,
+      x: 0,
+      y: 724
+    }, {
       pic: "bg/cuhk/floor1.png",
-      transparency: 0, width: 1170, x: 797, y: 362
-    },
-    {
+      transparency: 0,
+      width: 2340,
+      x: 1594,
+      y: 724
+    }, {
       pic: "bg/cuhk/floor2.png",
-      transparency: 0, width: 1200, x: 0, y: 391
-    },
-    {
+      transparency: 0,
+      width: 2400,
+      x: 0,
+      y: 782
+    }, {
       pic: "bg/cuhk/floor2.png",
-      transparency: 0, width: 1200, x: 797, y: 391
-    },
-    {
+      transparency: 0,
+      width: 2400,
+      x: 1594,
+      y: 782
+    }, {
       pic: "bg/cuhk/floor3.png",
-      transparency: 0, width: 1600, x: 0, y: 422
-    },
-    {
+      transparency: 0,
+      width: 3200,
+      x: 0,
+      y: 844
+    }, {
       pic: "bg/cuhk/floor3.png",
-      transparency: 0, width: 1600, x: 800, y: 422
-    },
-    {
+      transparency: 0,
+      width: 3200,
+      x: 1600,
+      y: 844
+    }, {
       pic: "bg/cuhk/sky1.png",
-      transparency: 0, width: 967, x: 0, y: 128
-    },
-    {
+      transparency: 0,
+      width: 1934,
+      x: 0,
+      y: 256
+    }, {
       pic: "bg/cuhk/sky2.png",
-      transparency: 0, width: 967, x: 800, y: 128
-    },
-    {
+      transparency: 0,
+      width: 1934,
+      x: 1600,
+      y: 256
+    }, {
       pic: "bg/cuhk/a1.png",
-      transparency: 1, width: 1100, x: 299, y: 292
-    },
-    {
+      transparency: 1,
+      width: 2200,
+      x: 598,
+      y: 584
+    }, {
       pic: "bg/cuhk/a2.png",
-      transparency: 1, width: 1100, x: 726, y: 229
-    },
-    {
+      transparency: 1,
+      width: 2200,
+      x: 1452,
+      y: 458
+    }, {
       pic: "bg/cuhk/lib.png",
-      transparency: 1, width: 1130, x: 225, y: 130
-    },
-    {
+      transparency: 1,
+      width: 2260,
+      x: 450,
+      y: 260
+    }, {
       pic: "bg/cuhk/hill.png",
-      transparency: 1, width: 1140, x: 827, y: 128
-    },
-    {
+      transparency: 1,
+      width: 2280,
+      x: 1654,
+      y: 256
+    }, {
       pic: "bg/cuhk/hill2.png",
-      transparency: 1, width: 1160, x: 853, y: 272
-    },
-    {
+      transparency: 1,
+      width: 2320,
+      x: 1706,
+      y: 544
+    }, {
       pic: "bg/cuhk/bu1.png",
-      transparency: 1, width: 1170, x: 0, y: 181
-    },
-    {
+      transparency: 1,
+      width: 2340,
+      x: 0,
+      y: 362
+    }, {
       pic: "bg/cuhk/statue.png",
-      transparency: 1, width: 1175, x: 414, y: 283
-    },
-    {
+      transparency: 1,
+      width: 2350,
+      x: 828,
+      y: 566
+    }, {
       pic: "bg/cuhk/lamp1.png",
-      transparency: 1, width: 1179, x: 282, y: 268
-    },
-    {
+      transparency: 1,
+      width: 2358,
+      x: 564,
+      y: 536
+    }, {
       pic: "bg/cuhk/lamp2.png",
-      transparency: 1, width: 1179, x: 872, y: 268
-    },
-    {
+      transparency: 1,
+      width: 2358,
+      x: 1744,
+      y: 536
+    }, {
       pic: "bg/cuhk/grass2.png",
-      transparency: 1, width: 1188, x: 102, y: 339
-    },
-    {
+      transparency: 1,
+      width: 2376,
+      x: 204,
+      y: 678
+    }, {
       pic: "bg/cuhk/grass.png",
-      transparency: 1, width: 1210, x: 0, y: 283
-    },
-    {
+      transparency: 1,
+      width: 2420,
+      x: 0,
+      y: 566
+    }, {
       pic: "bg/cuhk/right.png",
-      transparency: 1, width: 1185, x: 1044, y: 285
-    }
-  ]
+      transparency: 1,
+      width: 2370,
+      x: 2088,
+      y: 570
+    }]
 });

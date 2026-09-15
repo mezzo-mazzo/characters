@@ -61,19 +61,19 @@ if(rand(22)+1>10*(difficulty)){
  var tmp = target.health.mp;
  var smp = self.health.mp;
 
- if(self.health.bdefend>0&&frame(self.uid,110,111)&&range(0,80,dist)&&stzd<=13){controller.keyseq(['def','down','att']);return 1;}
+ if(self.health.bdefend>0&&frame(self.uid,110,111)&&range(0,160,dist)&&stzd<=26){controller.keyseq(['def','down','att']);return 1;}
  //no mp combo
- if (dist >= 0 && target.state() == 12 && styd > 60 && styd < 90){
+ if (dist >= 0 && target.state() == 12 && styd > 120 && styd < 180){
   if (self.state() <= 1){if (stxd > 0){controller.keypress('left');}else {controller.keypress('right');}return 1;}//run
   else if (self.state() == 2){controller.keypress('att');return 1;}                           //attack
  }//grab combo
  if (self.frame.N == 121 && self.AI.ctimer() < 50){controller.keyseq(['def','down','att']);}
   //blasts
- if (target.id!=8&&dist >= 300 && stzd <= 40 && self.state() <= 1){DfA();}
- else if (dist > 700 && stzd <= 40 && self.frame.N >= 240 && self.frame.N <= 264){controller.keypress('att');}
+ if (target.id!=8&&dist >= 600 && stzd <= 80 && self.state() <= 1){DfA();}
+ else if (dist > 1400 && stzd <= 80 && self.frame.N >= 240 && self.frame.N <= 264){controller.keypress('att');}
  else if (self.frame.N >= 240 && self.frame.N <= 264){return 1;}
  //combo breaker
- if (stzd < 10 && dist < 75 && dist >= -5 && target.ps.y == 0 && (self.frame.N == 111 || self.state() == 8 || self.state() == 11 || self.state() == 16)){
+ if (stzd < 20 && dist < 150 && dist >= -10 && target.ps.y == 0 && (self.frame.N == 111 || self.state() == 8 || self.state() == 11 || self.state() == 16)){
   if (smp >= 225 && self.frame.N != 111){controller.keyseq(['def','up','att']);}else if (smp >= 75 && self.frame.N == 111 && (tmp < 193 || smp >= 293)){controller.keyseq(['def','down','att']);}else if (((target.frame.N >= 280 && target.frame.N <= 278 && smp >= 225) || tmp < 70) && (target.frame.N < 70 && target.frame.N > 72)){controller.keypress('def');}return 1;
  }//flip
  else if (self.state() == 12){
@@ -83,15 +83,15 @@ if(rand(22)+1>10*(difficulty)){
   if (dist > 0 && target.frame.N < 290 && target.frame.N > 293){controller.keypress('jump');}else {controller.keypress('def');}
  }
  //facing
- if (bfac != 0 && self.state() == 7 && stzd < 10 && target.ps.y == 0){//defense
+ if (bfac != 0 && self.state() == 7 && stzd < 20 && target.ps.y == 0){//defense
   if (sfac < 0){controller.keypress('left');}else {controller.keypress('right');}//turn
  }
- else if (stzd < 10 && dist < 0 && self.state() != 1 && self.state() != 7){//normal
+ else if (stzd < 20 && dist < 0 && self.state() != 1 && self.state() != 7){//normal
   if (stxd > 0){controller.keypress('left');}else {controller.keypress('right');}//turn
  }
  //defending
- if (stzd < 10 && self.state() != 7 && target.state() == 3 && abs(dist) < 100 && target.ps.y == 0 && ((target.frame.N >= 280 && target.frame.N <= 278 && smp >= 225) || tmp < 70) && (target.frame.N < 70 && target.frame.N > 72)){controller.keypress('def');}//combos
- else if (stzd < 10 && dist < 70 && dist >= -5){
+ if (stzd < 20 && self.state() != 7 && target.state() == 3 && abs(dist) < 200 && target.ps.y == 0 && ((target.frame.N >= 280 && target.frame.N <= 278 && smp >= 225) || tmp < 70) && (target.frame.N < 70 && target.frame.N > 72)){controller.keypress('def');}//combos
+ else if (stzd < 20 && dist < 140 && dist >= -10){
   if (target.health.hp > 0 && target.health.hp <= 114 && smp >= 225 && target.state() != 12 && target.state() != 7){controller.keyseq(['def','up','att']);return 1;}//finisher
   else if (self.frame.N == 39 && target.state() == 12){controller.keypress('jump');return 1;}                                                 //super combo
   else if ((self.frame.N == 278 || self.frame.N == 279) && tmp >= 225 && target.AI.shake() > 0){controller.keyseq(['def','up','att']);return 1;}           //safe combo
@@ -103,7 +103,7 @@ if(rand(22)+1>10*(difficulty)){
   else if ((target.frame.N == 181 || target.frame.N == 187) && target.health.hp > 0 && smp >= 225){controller.keyseq(['def','up','att']);return 1;}          //fall dragon
  }
  //opportunities
- if (self.state() == 5 || self.state() == 9 || (self.frame.N == 292 && styd < 7)){//dash,grab,leap attack
+ if (self.state() == 5 || self.state() == 9 || (self.frame.N == 292 && styd < 14)){//dash,grab,leap attack
   if ((target.health.hp <= 138 || self.AI.ctimer() < 40) && self.state() == 9 && smp >= 300){controller.keyseq(['def','down','att']);}      //finisher
   else if ((target.health.hp <= 114 || self.AI.ctimer() < 40) && self.state() == 9 && smp >= 225){controller.keyseq(['def','up','att']);}//finisher
   else if (self.AI.ctimer() < 40 && self.state() == 9 && smp >= 75 && tmp < 225){controller.keyseq(['def','down','att']);return 1;}//end
@@ -160,7 +160,7 @@ function frame(i,min,max){
 function act(o){
   if(target.state()!=14&&target.AI.blink()==0){
    //special moves, attacking, jumping, picking, combos, etc, ...
-   if(target.state()!=3&&target.state()!=2&&target.frame.N!=213&&range(100,180+abs(self.ps.vx),abs(xdistance(self.uid,o)))&&range(0,40+abs(self.ps.vz),abs(zdistance(self.uid,o)))){
+   if(target.state()!=3&&target.state()!=2&&target.frame.N!=213&&range(200,360+abs(self.ps.vx),abs(xdistance(self.uid,o)))&&range(0,80+abs(self.ps.vz),abs(zdistance(self.uid,o)))){
 	 if(self.state()<=1){run();}
 	 else if(self.state()==2){controller.keypress('jump');controller.keypress('att');}
    }
@@ -170,7 +170,7 @@ function act(o){
 function opponent_close(i){
    //true if opponent in range
    //pass object number and ranges
-   return (loadTarget(i)==0&&range(0,80,abs(xdistance(self.uid,target.uid)))&&range(0,15,abs(zdistance(self.uid,target.uid))))?true:false;
+   return (loadTarget(i)==0&&range(0,160,abs(xdistance(self.uid,target.uid)))&&range(0,30,abs(zdistance(self.uid,target.uid))))?true:false;
 }
 function attack(){
    //attack towards target
@@ -188,9 +188,9 @@ function approach_opponent(o){
 	  if(target.id==4||target.id==5){move_towards(o);}
       else{move_away(o);}
    }
-   else if(!range(0,5,abs(zdistance(self.uid,o)))||!range(0,65,abs(xdistance(self.uid,o)))){
-      if(self.state()<=1&&!range(0,300,abs(xdistance(self.uid,o)))&&facing_towards()){run();}
-      else if(self.state()<=1&&!range(0,80,abs(xdistance(self.uid,o)))){move_above(o);}
+   else if(!range(0,10,abs(zdistance(self.uid,o)))||!range(0,130,abs(xdistance(self.uid,o)))){
+      if(self.state()<=1&&!range(0,600,abs(xdistance(self.uid,o)))&&facing_towards()){run();}
+      else if(self.state()<=1&&!range(0,160,abs(xdistance(self.uid,o)))){move_above(o);}
 	  else{move_towards(o);}
    }
 }
@@ -201,10 +201,10 @@ function run(){
 function move_above(i){
    //walk above target i
    //add desired x and z distances
-   if(!range(0,10+abs(self.ps.vx),abs(xdistance(self.uid,i)))){
+   if(!range(0,20+abs(self.ps.vx),abs(xdistance(self.uid,i)))){
       if(xdistance(self.uid,i)<0){controller.keypress('left',1,1);}else{controller.keypress('right',1,1);}
    }
-   if(range(0,30+abs(self.ps.vz),abs(zdistance(self.uid,i)))){
+   if(range(0,60+abs(self.ps.vz),abs(zdistance(self.uid,i)))){
       if(zdistance(self.uid,i)<0){controller.keypress('down',1,1);}else{controller.keypress('up',1,1);}
    }
 }
@@ -217,10 +217,10 @@ function move_away(i){
 function move_towards(i){
    //walk towards target i
    //add desired x and z distances
-   if(!range(0,60+18*(difficulty-2)+abs(self.ps.vx),abs(xdistance(self.uid,i)))){
+   if(!range(0,120+36*(difficulty-2)+abs(self.ps.vx),abs(xdistance(self.uid,i)))){
       if(xdistance(self.uid,i)<0){controller.keypress('left',1,1);}else{controller.keypress('right',1,1);}
    }
-   if(!range(0,10+abs(self.ps.vz),abs(zdistance(self.uid,i)))){
+   if(!range(0,20+abs(self.ps.vz),abs(zdistance(self.uid,i)))){
       if(zdistance(self.uid,i)<0){controller.keypress('up',1,1);}else{controller.keypress('down',1,1);}
    }
 }
@@ -283,7 +283,7 @@ function turn(){//press opposite direction
 function dodge(i){//dodge attack
    if(!is_reboundable(i[0])&&i[1]>=dodge_time(i)&&i[3]!=-1){
       if(is_chase(i[0])){towards(i[0],0);return true;}
-      if((i[3]<self.ps.z||i[3]<=bg_zwidth1+15)&&i[3]<=bg_zwidth2-15)controller.keypress('down');
+      if((i[3]<self.ps.z||i[3]<=bg_zwidth1+30)&&i[3]<=bg_zwidth2-30)controller.keypress('down');
       else controller.keypress('up');
 	  return true;
    }
@@ -498,8 +498,8 @@ function bdy(o,i,f,t){//get bdy i of object o in frame f at time t from now
       r[1]+=game_objects[o].ps.vx*t;
       r[2]=game_objects[o].ps.y+game_objects[o].AI.frame(f).bdys[i].y-game_objects[o].AI.frame(f).centery;
       r[3]=game_objects[o].ps.y+game_objects[o].AI.frame(f).bdys[i].y+game_objects[o].AI.frame(f).bdys[i].h-game_objects[o].AI.frame(f).centery;
-      r[2]+=game_objects[o].ps.vy*t+(has_gravity(o)?1.7:0)*t;
-      r[3]+=game_objects[o].ps.vy*t+(has_gravity(o)?1.7:0)*t;
+      r[2]+=game_objects[o].ps.vy*t+(has_gravity(o)?3.4:0)*t; // 2x port: 1.7 -> 3.4 (matches GC.gravity)
+      r[3]+=game_objects[o].ps.vy*t+(has_gravity(o)?3.4:0)*t; // 2x port: 1.7 -> 3.4 (matches GC.gravity)
       r[4]=game_objects[o].ps.z +game_objects[o].ps.vz*t;
       r[5]=game_objects[o].ps.z +game_objects[o].ps.vz*t;
    }
@@ -513,7 +513,7 @@ function get_attack_info(o,fo,x,fx){
       fo=game_objects[o].AI.frame1();
       fx=game_objects[x].AI.frame1();
    }
-   var a=[31,0,-1,14];
+   var a=[31,0,-1,28]; // 2x port: default zwidth-ish placeholder 14 -> 28
    if(fo==-1)fo=game_objects[o].AI.frame1();
    if(fx==-1)fx=game_objects[x].AI.frame1();
    if(is_object(x)&&o!=x&&is_object(o)){
@@ -538,7 +538,7 @@ function get_attack_info(o,fo,x,fx){
 					    a[0]=t;
 						a[1]=game_objects[o].AI.frame(fo).itrs[i].injury;
 						a[2]=game_objects[o].ps.z+game_objects[o].ps.vz*t;
-						if(game_objects[o].AI.frame(fo).itrs[i].zwidth)a[3]=game_objects[o].AI.frame(fo).itrs[i].zwidth-1;
+						if(game_objects[o].AI.frame(fo).itrs[i].zwidth)a[3]=game_objects[o].AI.frame(fo).itrs[i].zwidth-2; // 2x port: -1 -> -2
 						return a;
 					 }
    			      }
@@ -553,17 +553,17 @@ function get_attack_info(o,fo,x,fx){
 function get_objects(){//find all essential object numbers and parameters
 //add more required parameters
    var o=[
-   [-1,31,-1,-1,14],
+   [-1,31,-1,-1,28], // 2x port: default zwidth-ish placeholder 14 -> 28
    [-1,2147483647],
    [-1,2147483647],
    [-1,2147483647],
    ];
    //0,0: object first to hit
-   var a=[31,-1,-1,14];
+   var a=[31,-1,-1,28]; // 2x port: default zwidth-ish placeholder 14 -> 28 (unused; always reassigned below)
    //0,1: time till it hits
    //0,2: injury
    //0,3: z at impact
-   //0,4: zwidth-1
+   //0,4: zwidth-2
    //1,0: closest opponent
    //1,1: closest opponent distance
    //2,0: second closest opponent
@@ -598,10 +598,10 @@ function itr(o,i,f,t){//get itr i of object o in frame f at time t from now
       r[1]+=game_objects[o].ps.vx*t;
       r[2]=game_objects[o].ps.y+game_objects[o].AI.frame(f).itrs[i].y-game_objects[o].AI.frame(f).centery;
       r[3]=game_objects[o].ps.y+game_objects[o].AI.frame(f).itrs[i].y+game_objects[o].AI.frame(f).itrs[i].h-game_objects[o].AI.frame(f).centery;
-      r[2]+=game_objects[o].ps.vy*t+(has_gravity(o)?1.7:0)*t;
-      r[3]+=game_objects[o].ps.vy*t+(has_gravity(o)?1.7:0)*t;
+      r[2]+=game_objects[o].ps.vy*t+(has_gravity(o)?3.4:0)*t; // 2x port: 1.7 -> 3.4 (matches GC.gravity)
+      r[3]+=game_objects[o].ps.vy*t+(has_gravity(o)?3.4:0)*t; // 2x port: 1.7 -> 3.4 (matches GC.gravity)
       var z=game_objects[o].AI.frame(f).itrs[i].zwidth;
-      if(z==0)z=14;
+      if(z==0)z=28; // 2x port: 14 -> 28
       r[4]=game_objects[o].ps.z-z +game_objects[o].ps.vz*t;
       r[5]=game_objects[o].ps.z+z +game_objects[o].ps.vz*t;
    }

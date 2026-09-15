@@ -56,13 +56,13 @@ ID[150]= //stone
 ID[201]= //henry_arrow1
 {
 	mass: 0.3,
-	zwidth: 1
+	zwidth: 2 // 2x port: 1 -> 2
 };
 
 ID[202]= //rudolf_weapon
 {
 	mass: 0.3,
-	zwidth: 1
+	zwidth: 2 // 2x port: 1 -> 2
 };
 
 ID[203]= //deep_ball
@@ -90,12 +90,12 @@ ID[213]= //ice sword
 
 ID[300]= //hit
 {
-	oscillate: 4 //oscillation amplitude
+	oscillate: 8 // 2x port: 4 -> 8; oscillation amplitude
 };
 
 ID[302]= //fire
 {
-	oscillate: 3 //oscillation amplitude
+	oscillate: 6 // 2x port: 3 -> 6; oscillation amplitude
 };
 
 return ID;

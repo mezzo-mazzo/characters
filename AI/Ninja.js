@@ -19,7 +19,7 @@
             var action_list = [];
             var is_throw_weapon = false;
             var temp_cc = -1;
-            const CHASE_DIST = 180;
+            const CHASE_DIST = 360; // 2x port: 180 -> 360
 
             this.TU = function()
             {	//this is the main AI routine that will be called once every 2 or 3 TU
@@ -96,7 +96,7 @@
                         }
                     } else if (dist_target.shortest > CHASE_DIST/2 && dist_target.shortest <= CHASE_DIST) {
                         // :::Target is in moderate range 
-                        if (abs(dist_target.dz)>20) {
+                        if (abs(dist_target.dz)>40) { // 2x port: 20 -> 40
                             // ^ V move to get to enermy
                             // console.log('Moderate: ', dir_up); // Status report
                             walk(dir, dir_up);
@@ -144,7 +144,7 @@
                         }
                     } else {
                         // :::Target is near me
-                        if (abs(dist_target.dz) < 10) {
+                        if (abs(dist_target.dz) < 20) { // 2x port: 10 -> 20
                             // console.log('Close', dir);  // Status report
                             if (self.ps.dir != dir) {
                                 controller.key(DIR[dir],0);
@@ -292,13 +292,13 @@
                 }
                 if (enermy_attack.length > 0) {
                     const dist_attack = distance(enermy_attack[0]);
-                    if (abs(dist_attack.shortest) < CHASE_DIST + 500) {
-                        if (abs(dist_attack.dz) < 0 && abs(dist_attack.dz) > -50) { // i am below ball
+                    if (abs(dist_attack.shortest) < CHASE_DIST + 1000) { // 2x port: +500 -> +1000
+                        if (abs(dist_attack.dz) < 0 && abs(dist_attack.dz) > -100) { // i am below ball; 2x port: -50 -> -100
                             if (dir_up == 2) { // i running up
                                 dir_up = 3; // change to run down
                             }
                             return 0
-                        } else if (abs(dist_attack.dz) > 0 && abs(dist_attack.dz) < 50) { // i am above ball
+                        } else if (abs(dist_attack.dz) > 0 && abs(dist_attack.dz) < 100) { // i am above ball; 2x port: 50 -> 100
                             if (dir_up == 3) { // i running down
                                 dir_up = 2; // change to run up
                             }

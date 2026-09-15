@@ -21,9 +21,9 @@ define(function()
 				load_target();
 			var dx = target.ps.x-self.ps.x;
 			var dz = target.ps.z-self.ps.z;
-			if( ((dx>0?1:-1)===self.dirh() && abs(dx)<200 && abs(dz)<10 && (self.state()===2 || self.state()===5))
+			if( ((dx>0?1:-1)===self.dirh() && abs(dx)<400 && abs(dz)<20 && (self.state()===2 || self.state()===5)) // 2x port: 200->400, 10->20
 			//if target is in front of me and he is in range and I am running or dashing
-			 || (abs(dx)<50 && abs(dz)<10)) //or if I am very close to target
+			 || (abs(dx)<100 && abs(dz)<20)) //or if I am very close to target; 2x port: 50->100, 10->20
 			if( target.state()!==14) //and if he is not lying
 			{
 				controller.keypress(DIR[dx>0?1:0]); //change direction
@@ -37,7 +37,7 @@ define(function()
 					chase = true; //chase
 				else
 					chase = false; //flight
-				if( abs(dx)<200) //not very far away
+				if( abs(dx)<400) //not very far away; 2x port: 200->400
 				{	//if chasing, walk towards him
 					controller.key(DIR[dir],0); //keyup- release the previous key
 					if( rand(3)===0) //30% chance of doing so

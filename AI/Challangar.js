@@ -65,7 +65,7 @@ function get_to(min_x,max_x,min_z,max_z){
    var dx = max(self.ps.x - max_x, min_x - self.ps.x);
    var dz = max(self.ps.z - max_z, min_z - self.ps.z);
    //var angle = atan2(var(dz), var(dx));
-   var run = (dx > run_stop_distance || abs(self.ps.x - target.ps.x) < 100) ? 0 : 1;
+   var run = (dx > run_stop_distance || abs(self.ps.x - target.ps.x) < 200) ? 0 : 1; // 2x port: 100 -> 200
    
    if (self.ps.x > max_x) {
 	   controller.keypress('left',1,run);
@@ -124,12 +124,12 @@ var run_stop_distance;
 var diagonal_run_angle; // not used due to lack of atan2
 
 function id() {
-   min_dash_dx = about(70);
-   max_dash_dx = about(230);
-   min_dash_dz = about(5);
-   max_dash_dz = about(40);
+   min_dash_dx = about(140); // 2x port: 70 -> 140
+   max_dash_dx = about(460); // 2x port: 230 -> 460
+   min_dash_dz = about(10); // 2x port: 5 -> 10
+   max_dash_dz = about(80); // 2x port: 40 -> 80
    max_dash_blink = 5;
-   run_stop_distance = about(30);
+   run_stop_distance = about(60); // 2x port: 30 -> 60
    diagonal_run_angle = 20.0; // not used due to lack of atan2
 
    controller.keypress('att',0,0); //reset keys

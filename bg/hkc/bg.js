@@ -1,55 +1,95 @@
 define({
   name: "HK Coliseum",
-  width: 794, zboundary: [316, 442],
-  shadow: "bg/hkc/s.png", shadowsize: [37, 9],
-  layer: [
-    {
+  width: 1588,
+  zboundary: [632, 884],
+  shadow: "bg/hkc/s.png",
+  shadowsize: [74, 18],
+  layer: [{
       pic: "bg/hkc/back1.png",
-      transparency: 0, width: 794, x: 0, y: 128
-    },
-    {
+      transparency: 0,
+      width: 1588,
+      x: 0,
+      y: 256
+    }, {
       pic: "bg/hkc/back2.png",
-      transparency: 0, width: 794, x: 0, y: 237, cc: 16, c1: 0, c2: 7
-    },
-    {
+      transparency: 0,
+      width: 1588,
+      x: 0,
+      y: 474,
+      cc: 16,
+      c1: 0,
+      c2: 7
+    }, {
       pic: "bg/hkc/back22.png",
-      transparency: 0, width: 794, x: 0, y: 237, cc: 16, c1: 8, c2: 15
-    },
-    {
+      transparency: 0,
+      width: 1588,
+      x: 0,
+      y: 474,
+      cc: 16,
+      c1: 8,
+      c2: 15
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 40179, x: 0, y: 327, width: 794, height: 119
-    },
-    {
+      rect: 40179,
+      x: 0,
+      y: 654,
+      width: 1588,
+      height: 238
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 40179, x: 0, y: 448, width: 794, height: 10
-    },
-    {
+      rect: 40179,
+      x: 0,
+      y: 896,
+      width: 1588,
+      height: 20
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 40179, x: 0, y: 460, width: 794, height: 9
-    },
-    {
+      rect: 40179,
+      x: 0,
+      y: 920,
+      width: 1588,
+      height: 18
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 29582, x: 0, y: 469, width: 794, height: 3
-    },
-    {
+      rect: 29582,
+      x: 0,
+      y: 938,
+      width: 1588,
+      height: 6
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 25356, x: 0, y: 472, width: 794, height: 42
-    },
-    {
+      rect: 25356,
+      x: 0,
+      y: 944,
+      width: 1588,
+      height: 84
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 37773, x: 0, y: 446, width: 794, height: 1
-    },
-    {
+      rect: 37773,
+      x: 0,
+      y: 892,
+      width: 1588,
+      height: 2
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 33580, x: 0, y: 447, width: 794, height: 1
-    },
-    {
+      rect: 33580,
+      x: 0,
+      y: 894,
+      width: 1588,
+      height: 2
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 37773, x: 0, y: 458, width: 794, height: 1
-    },
-    {
+      rect: 37773,
+      x: 0,
+      y: 916,
+      width: 1588,
+      height: 2
+    }, {
       pic: "bg/hkc/s.png",
-      rect: 33580, x: 0, y: 459, width: 794, height: 1
-    }
-  ]
+      rect: 33580,
+      x: 0,
+      y: 918,
+      width: 1588,
+      height: 2
+    }]
 });

@@ -67,15 +67,15 @@ define({
 
 	background:
 	[
-		{id:4, name: 'HK Coliseum', file:'bg/hkc/bg.js'},
-		{id:2, name: 'Lion Forest', file:'bg/lf/bg.js'},
-		{id:3, name: 'Stanley Prison', file:'bg/sp/bg.js'},
-		{id:5, name: 'The Great Wall', file:'bg/gw/bg.js'},
-		{id:6, name: "Queen's Island", file:'bg/qi/bg.js'},
-		{id:7, name: 'Forbidden Tower', file:'bg/ft/bg.js'},
-		{id:1, name: 'CUHK', file:'bg/cuhk/bg.js'},
-		{id:0, name: 'Tai Hom Village', file:'bg/thv/bg.js'},
-		{id:10,name: 'Template1', file:'bg/template/bg.js'}
+		{id:4, name: 'HK Coliseum', file:'bg/hkc/bg.js', preview:'bg/hkc/back1.png'},
+		{id:2, name: 'Lion Forest', file:'bg/lf/bg.js', preview:'bg/lf/forestt.png'},
+		{id:3, name: 'Stanley Prison', file:'bg/sp/bg.js', preview:'bg/sp/wall.png'},
+		{id:5, name: 'The Great Wall', file:'bg/gw/bg.js', preview:'bg/gw/hill1.png'},
+		{id:6, name: "Queen's Island", file:'bg/qi/bg.js', preview:'bg/qi/qi1.png'},
+		{id:7, name: 'Forbidden Tower', file:'bg/ft/bg.js', preview:'bg/ft/c1.png'},
+		{id:1, name: 'CUHK', file:'bg/cuhk/bg.js', preview:'bg/cuhk/lib.png'},
+		{id:0, name: 'Tai Hom Village', file:'bg/thv/bg.js', preview:'bg/thv/5.png'},
+		{id:10,name: 'Template1', file:'bg/template/bg.js', preview:'bg/template/pic1.png'}
 	],
 
 	sound:
