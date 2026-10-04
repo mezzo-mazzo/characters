@@ -560,10 +560,14 @@
 .summary_title
 {
 	background:#11286C;
-	padding:6px 0;
-	text-align:center;
+	padding:6px 7px;
+	text-align:left;
 	font-size:30px;
 	color:#FFFFFF;
+    display:flex;
+}
+.summary_title>* {
+    width:100%;
 }
 .summary_columns,
 .summary_row
@@ -590,6 +594,7 @@
 {
 	display:block;
 	font-size:16px;
+    text-align:center;
 }
 /* the columns, shared by the header and the player rows.
    they add up to the inner width of the dialog (980 - 2*10 border - 2*20 padding) */
@@ -665,6 +670,12 @@
 .summary_foot .summary_hint
 {
 	margin-right:auto;
+}
+.summary_foot .summary_hint .label_local{
+    margin-left: 6px;
+}
+.summary_time_label.label_local {
+    margin-left:6px;
 }
 .summary_foot .summary_time_label
 {

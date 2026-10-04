@@ -17,17 +17,22 @@ define({
 
 	object:
 	[
-		{id:30, name:'Bandit', type:'character', file:'data/bandit.js', pic:'sprite/bandit_f.png'},
-		{id: 1, name:'Deep', type:'character', file:'data/deep.js', pic:'sprite/deep_f.png'},
-		{id: 2, name:'John', type:'character', file:'data/john.js', pic:'sprite/john_f.png'},
-		{id: 4, name:'Henry', type:'character', file:'data/henry.js', pic:'sprite/henry_f.png'},
-		{id: 5, name:'Rudolf', type:'character', file:'data/rudolf.js', pic:'sprite/rudolf_f.png', AI: 4},
-		{id: 6, name:'Louis', type:'character', file:'data/louis.js', pic:'sprite/louis_f.png'},
-		{id: 7, name:'Firen', type:'character', file:'data/firen.js', pic:'sprite/firen_f.png'},
-		{id: 8, name:'Freeze', type:'character', file:'data/freeze.js', pic:'sprite/freeze_f.png'},
-		{id: 9, name:'Dennis', type:'character', file:'data/dennis.js', pic:'sprite/dennis_f.png'},
-		{id:10, name:'Woody', type:'character', file:'data/woody.js', pic:'sprite/woody_f.png'},
-		{id:11, name:'Davis', type:'character', file:'data/davis.js', pic:'sprite/davis_f.png'},
+		{id:30, name:'Bandit', type:'character', file:'data/bandit.js', pic:'sprite/bandit_f.png', hidden:true}, //original LF2 character, kept as reference
+		{id: 1, name:'Deep', type:'character', file:'data/deep.js', pic:'sprite/deep_f.png', hidden:true}, //original LF2 character, kept as reference
+		{id: 2, name:'John', type:'character', file:'data/john.js', pic:'sprite/john_f.png', hidden:true}, //original LF2 character, kept as reference
+		{id: 4, name:'Henry', type:'character', file:'data/henry.js', pic:'sprite/henry_f.png', hidden:true}, //original LF2 character, kept as reference
+		{id: 5, name:'Rudolf', type:'character', file:'data/rudolf.js', pic:'sprite/rudolf_f.png', AI: 4, hidden:true}, //replaced by Ben-Gvir, kept as reference
+		{id: 6, name:'Louis', type:'character', file:'data/louis.js', pic:'sprite/louis_f.png', hidden:true}, //replaced by Liberman, kept as reference
+		{id: 7, name:'Firen', type:'character', file:'data/firen.js', pic:'sprite/firen_f.png', hidden:true}, //replaced by Eizenkot, kept as reference
+		{id: 8, name:'Freeze', type:'character', file:'data/freeze.js', pic:'sprite/freeze_f.png', hidden:true}, //original LF2 character, kept as reference
+		{id: 9, name:'Dennis', type:'character', file:'data/dennis.js', pic:'sprite/dennis_f.png', hidden:true}, //replaced by Golan, kept as reference
+		{id:10, name:'Woody', type:'character', file:'data/woody.js', pic:'sprite/woody_f.png', hidden:true}, //original LF2 character, kept as reference
+		{id:11, name:'Davis', type:'character', file:'data/davis.js', pic:'sprite/davis_f.png', hidden:true}, //replaced by Lapid, kept as reference
+		{id:12, name:'Liberman', type:'character', file:'data/liberman.js', pic:'sprite/liberman_f.png'},
+		{id:13, name:'Lapid', type:'character', file:'data/lapid.js', pic:'sprite/lapid_f.png'},
+		{id:14, name:'Eizenkot', type:'character', file:'data/eizenkot.js', pic:'sprite/eizenkot_f.png'},
+		{id:15, name:'Golan', type:'character', file:'data/golan.js', pic:'sprite/golan_f.png'}, //Dennis's moveset (data/golan.js is a commented copy of dennis.js)
+		{id:16, name:'Ben-Gvir', type:'character', file:'data/bengvir.js', pic:'sprite/bengvir_f.png', AI: 4}, //Rudolf's moveset; shoots a pistol instead of throwing shuriken
 
 		{id:100, type:'lightweapon', file:'data/weapon0.js'}, //stick
 		{id:101, type:'lightweapon', file:'data/weapon2.js'}, //hoe
@@ -54,7 +59,24 @@ define({
 		{id:212, type:'specialattack', file:'data/freeze_column.js'},
 		{id:213, type:'lightweapon', file:'data/weapon7.js'}, //ice_sword
 		{id:214, type:'specialattack', file:'data/john_biscuit.js'},
-		{id:215, type:'specialattack', file:'data/dennis_chase.js'}
+		{id:215, type:'specialattack', file:'data/dennis_chase.js'},
+		{id:220, type:'specialattack', file:'data/golan_ball.js'}, //Dennis's ball as Golan's own entry (packed with golan.js by name matching in util.organize_package)
+		{id:221, type:'specialattack', file:'data/golan_chase.js'}, //Dennis's chase ball as Golan's own entry
+		{id:216, type:'specialattack', file:'data/liberman_wind.js'}, //Louis's wind, its own entry so it gets packed with liberman.js (name matching in util.organize_package)
+		{id:218, type:'specialattack', file:'data/eizenkot_ball.js'}, //Firen's fire ball as Eizenkot's own entry (packed with eizenkot.js by name matching in util.organize_package)
+		{id:219, type:'specialattack', file:'data/eizenkot_flame.js'}, //Firen's flame/inferno as Eizenkot's own entry
+		{id:222, type:'specialattack', file:'data/bengvir_bullet.js'}, //Rudolf's shuriken as Ben-Gvir's bullet (packed with bengvir.js by name matching in util.organize_package)
+		{id:223, type:'specialattack', file:'data/bengvir_wind.js'}, //henry_louis_rudolf_wind.js (Rudolf's smoke) as Ben-Gvir's own entry
+		{id:217, type:'specialattack', file:'data/lapid_ball.js'} //Davis's ball as Lapid's own entry (packed with lapid.js by name matching in util.organize_package)
+	],
+
+	//upcoming characters: only a portrait, shown grayed out in character selection.
+	//not objects (no `file`, so the loader fetches nothing for them), never selectable or picked at random.
+	preview:
+	[
+		{id:17, name:'Bennett', name_local:'בנט', pic:'sprite/bennett_f.png'},
+		{id:18, name:'Deri', name_local:'דרעי', pic:'sprite/deri_f.png'},
+		{id:19, name:'Smotrich', name_local:'סמוטריץ\'', pic:'sprite/smotrich_f.png'}
 	],
 
 	AI:

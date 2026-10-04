@@ -185,7 +185,7 @@ function facing_distance(s,t){
 function approach_opponent(o){
    //approach opponent, be aware of item?
    if(is_opponent(o)&&(target.state()==14||target.AI.blink())){
-	  if(target.id==4||target.id==5){move_towards(o);}
+	  if(target.id==4||target.id==5||target.id==16){move_towards(o);} // 16: Ben-Gvir (Rudolf's moveset)
       else{move_away(o);}
    }
    else if(!range(0,10,abs(zdistance(self.uid,o)))||!range(0,130,abs(xdistance(self.uid,o)))){

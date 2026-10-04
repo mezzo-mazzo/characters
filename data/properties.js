@@ -65,6 +65,12 @@ ID[202]= //rudolf_weapon
 	zwidth: 2 // 2x port: 1 -> 2
 };
 
+ID[222]= //bengvir_bullet (copy of rudolf_weapon, same physics)
+{
+	mass: 0.3,
+	zwidth: 2 // 2x port: 1 -> 2
+};
+
 ID[203]= //deep_ball
 {
 };
