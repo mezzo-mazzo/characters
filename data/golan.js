@@ -6643,8 +6643,8 @@ define({
       sound: "1/007",
       wpoint: {
         kind: 1,
-        x: 66,
-        y: 90,
+        x: 110, // golan: dennis 66
+        y: 63, // golan: dennis 90
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6688,8 +6688,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 64,
-        y: 92,
+        x: 92, // golan: dennis 64
+        y: 53, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6735,8 +6735,8 @@ define({
       sound: "1/007",
       wpoint: {
         kind: 1,
-        x: 76,
-        y: 92,
+        x: 90, // golan: dennis 76
+        y: 58, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6780,8 +6780,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 78,
-        y: 92,
+        x: 102, // golan: dennis 78
+        y: 52, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6827,8 +6827,8 @@ define({
       sound: "1/007",
       wpoint: {
         kind: 1,
-        x: 68,
-        y: 92,
+        x: 102, // golan: dennis 68
+        y: 56, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6872,8 +6872,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 68,
-        y: 92,
+        x: 104, // golan: dennis 68
+        y: 53, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6919,8 +6919,8 @@ define({
       sound: "1/007",
       wpoint: {
         kind: 1,
-        x: 68,
-        y: 92,
+        x: 76, // golan: dennis 68
+        y: 46, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6965,8 +6965,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 44,
-        y: 92,
+        x: 79, // golan: dennis 44
+        y: 55, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -7011,8 +7011,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 42,
-        y: 92,
+        x: 81, // golan: dennis 42
+        y: 52, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
