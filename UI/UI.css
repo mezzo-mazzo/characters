@@ -2,7 +2,7 @@
  * UI.css
  *
  * looks of this content package. the UI itself is plain HTML
- * (knesset-fighter/game/game.html): all texts, menus and dialogs are real DOM
+ * (knesset-fighter/index.html): all texts, menus and dialogs are real DOM
  * elements, so they can be restyled, translated or re-laid out from here alone.
  * the engine only fills in values and toggles classes.
  *

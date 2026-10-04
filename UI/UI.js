@@ -1,5 +1,5 @@
 //extended standard
-/* The user interface of this package is plain HTML (knesset-fighter/game/game.html)
+/* The user interface of this package is plain HTML (knesset-fighter/index.html)
    styled by UI/UI.css, so no UI coordinates are needed here any more.
 
    What is left is the data of the in game HP/MP panel: it is drawn by the
