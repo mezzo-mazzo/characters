@@ -67,7 +67,7 @@ define({
       wpoint: {
         kind: 1,
         x: 49, // golan: dennis 46
-        y: 89, // golan: dennis 110
+        y: 90, // golan: dennis 110
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -108,7 +108,7 @@ define({
       wpoint: {
         kind: 1,
         x: 50, // golan: dennis 46
-        y: 90, // golan: dennis 108
+        y: 91, // golan: dennis 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -149,7 +149,7 @@ define({
       wpoint: {
         kind: 1,
         x: 51, // golan: dennis 44
-        y: 91, // golan: dennis 108
+        y: 92, // golan: dennis 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -190,7 +190,7 @@ define({
       wpoint: {
         kind: 1,
         x: 50, // golan: dennis 44
-        y: 90, // golan: dennis 106
+        y: 91, // golan: dennis 106
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -230,8 +230,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 65, // golan: dennis 46
-        y: 81, // golan: dennis 108
+        x: 63, // golan: dennis 46
+        y: 82, // golan: dennis 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -280,8 +280,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 64, // golan: dennis 54
-        y: 87, // golan: dennis 110
+        x: 63, // golan: dennis 54
+        y: 89, // golan: dennis 110
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -380,8 +380,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 54, // golan: dennis 74
-        y: 85, // golan: dennis 110
+        x: 56, // golan: dennis 74
+        y: 86, // golan: dennis 110
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -427,7 +427,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 101, // golan: dennis 122
+        x: 97, // golan: dennis 122
         y: 83, // golan: dennis 80
         weaponact: 35,
         attacking: 0,
@@ -464,7 +464,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 96, // golan: dennis 94
+        x: 93, // golan: dennis 94
         y: 89, // golan: dennis 102
         weaponact: 22,
         attacking: 0,
@@ -502,7 +502,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 80, // golan: dennis 40
+        x: 75, // golan: dennis 40
         y: 88,
         weaponact: 25,
         attacking: 0,
@@ -577,7 +577,7 @@ define({
       wpoint: {
         kind: 1,
         x: 66, // golan: dennis 74
-        y: 9, // golan: dennis 42
+        y: 11, // golan: dennis 42
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -688,7 +688,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 73, // golan: dennis 88
+        x: 72, // golan: dennis 88
         y: 8, // golan: dennis 52
         weaponact: 10,
         attacking: 0,
@@ -725,7 +725,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 82, // golan: dennis 102
+        x: 83, // golan: dennis 102
         y: 9, // golan: dennis 50
         weaponact: 10,
         attacking: 0,
@@ -1766,8 +1766,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 129, // golan: dennis 134
-        y: 128, // golan: dennis 142
+        x: 134,
+        y: 142,
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -2642,7 +2642,7 @@ define({
       sound: "1/017",
       wpoint: {
         kind: 1,
-        x: 40, // golan: dennis 56
+        x: 42, // golan: dennis 56
         y: 48, // golan: dennis 70
         weaponact: 32,
         attacking: 0,
@@ -2728,8 +2728,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 42, // golan: dennis 86
-        y: 116, // golan: dennis 94
+        x: 43, // golan: dennis 86
+        y: 117, // golan: dennis 94
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -2762,8 +2762,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 31, // golan: dennis 40
-        y: 131, // golan: dennis 122
+        x: 32, // golan: dennis 40
+        y: 132, // golan: dennis 122
         weaponact: 25,
         attacking: 0,
         cover: 1,
@@ -2830,7 +2830,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 42, // golan: dennis 88
+        x: 43, // golan: dennis 88
         y: 117, // golan: dennis 96
         weaponact: 30,
         attacking: 0,
@@ -2864,8 +2864,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 31, // golan: dennis 40
-        y: 131, // golan: dennis 118
+        x: 32, // golan: dennis 40
+        y: 132, // golan: dennis 118
         weaponact: 25,
         attacking: 0,
         cover: 1,
@@ -2899,7 +2899,7 @@ define({
       sound: "1/017",
       wpoint: {
         kind: 1,
-        x: 67, // golan: dennis 82
+        x: 69, // golan: dennis 82
         y: 62, // golan: dennis 58
         weaponact: 35,
         attacking: 0,
@@ -2925,8 +2925,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 36, // golan: dennis 44
-        y: 75, // golan: dennis 46
+        x: 35, // golan: dennis 44
+        y: 79, // golan: dennis 46
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -3103,8 +3103,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 99, // golan: dennis 52
-        y: 113, // golan: dennis 130
+        x: 95, // golan: dennis 52
+        y: 121, // golan: dennis 130
         weaponact: 21,
         attacking: 0,
         cover: 0,
@@ -3185,8 +3185,8 @@ define({
       sound: "1/009",
       wpoint: {
         kind: 1,
-        x: 86, // golan: dennis 84
-        y: 145, // golan: dennis 158
+        x: 84,
+        y: 158,
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -3531,7 +3531,7 @@ define({
       wpoint: {
         kind: 1,
         x: 110, // golan: dennis 88
-        y: 66, // golan: dennis 94
+        y: 68, // golan: dennis 94
         weaponact: 30,
         attacking: 0,
         cover: 0,
@@ -4235,7 +4235,7 @@ define({
       wpoint: {
         kind: 1,
         x: 78, // golan: dennis 94
-        y: 84, // golan: dennis 80
+        y: 85, // golan: dennis 80
         weaponact: 20,
         attacking: 0,
         cover: 0,
@@ -4738,8 +4738,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 31, // golan: dennis 84
-        y: 132, // golan: dennis 128
+        x: 52, // golan: dennis 84
+        y: 108, // golan: dennis 128
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -5058,8 +5058,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 54,
-        y: 72,
+        x: 77, // golan: dennis 54
+        y: 38, // golan: dennis 72
         weaponact: 20,
         attacking: 0,
         cover: 0,
@@ -5654,8 +5654,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 69, // golan: dennis 46
-        y: 81, // golan: dennis 74
+        x: 76, // golan: dennis 46
+        y: 82, // golan: dennis 74
         weaponact: 25,
         attacking: 0,
         cover: 1,
@@ -5693,8 +5693,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 69, // golan: dennis 46
-        y: 81, // golan: dennis 74
+        x: 76, // golan: dennis 46
+        y: 82, // golan: dennis 74
         weaponact: 25,
         attacking: 0,
         cover: 1,
@@ -5800,7 +5800,7 @@ define({
       sound: "1/007",
       wpoint: {
         kind: 1,
-        x: 101, // golan: dennis 68
+        x: 100, // golan: dennis 68
         y: 82, // golan: dennis 92
         weaponact: 29,
         attacking: 0,
@@ -6872,8 +6872,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 104, // golan: dennis 68
-        y: 58, // golan: dennis 92
+        x: 68,
+        y: 92,
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -7111,8 +7111,8 @@ define({
       mp: 75,
       wpoint: {
         kind: 1,
-        x: 92, // golan: dennis 80
-        y: 74, // golan: dennis 92
+        x: 107, // golan: dennis 80
+        y: 76, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -7624,7 +7624,7 @@ define({
       wpoint: {
         kind: 1,
         x: 81, // golan: dennis 52
-        y: 95, // golan: dennis 92
+        y: 96, // golan: dennis 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
