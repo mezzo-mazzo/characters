@@ -67,7 +67,7 @@ define({
       wpoint: {
         kind: 1,
         x: 58, // liberman: louis 68
-        y: 108, // liberman: louis 110
+        y: 106, // liberman: louis 110
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -108,7 +108,7 @@ define({
       wpoint: {
         kind: 1,
         x: 59, // liberman: louis 68
-        y: 108,
+        y: 107, // liberman: louis 108
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -149,7 +149,7 @@ define({
       wpoint: {
         kind: 1,
         x: 60, // liberman: louis 68
-        y: 108,
+        y: 107, // liberman: louis 108
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -190,7 +190,7 @@ define({
       wpoint: {
         kind: 1,
         x: 59, // liberman: louis 66
-        y: 108,
+        y: 107, // liberman: louis 108
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -330,8 +330,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 57, // liberman: louis 64
-        y: 104, // liberman: louis 108
+        x: 56, // liberman: louis 64
+        y: 102, // liberman: louis 108
         weaponact: 22,
         attacking: 0,
         cover: 0,

@@ -80,7 +80,7 @@ define({
       wpoint: {
         kind: 1,
         x: 105, // bengvir: rudolf x: 92
-        y: 103, // bengvir: rudolf y: 98
+        y: 102, // bengvir: rudolf y: 98
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -122,7 +122,7 @@ define({
       wpoint: {
         kind: 1,
         x: 107, // bengvir: rudolf x: 94
-        y: 104, // bengvir: rudolf y: 98
+        y: 103, // bengvir: rudolf y: 98
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -206,7 +206,7 @@ define({
       wpoint: {
         kind: 1,
         x: 101, // bengvir: rudolf x: 88
-        y: 104, // bengvir: rudolf y: 94
+        y: 103, // bengvir: rudolf y: 94
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -248,7 +248,7 @@ define({
       wpoint: {
         kind: 1,
         x: 98, // bengvir: rudolf x: 88
-        y: 97, // bengvir: rudolf y: 92
+        y: 96, // bengvir: rudolf y: 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -299,7 +299,7 @@ define({
       wpoint: {
         kind: 1,
         x: 98, // bengvir: rudolf x: 86
-        y: 100, // bengvir: rudolf y: 92
+        y: 97, // bengvir: rudolf y: 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -350,7 +350,7 @@ define({
       wpoint: {
         kind: 1,
         x: 108, // bengvir: rudolf x: 90
-        y: 99, // bengvir: rudolf y: 92
+        y: 98, // bengvir: rudolf y: 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -401,7 +401,7 @@ define({
       wpoint: {
         kind: 1,
         x: 112, // bengvir: rudolf x: 94
-        y: 94, // bengvir: rudolf y: 92
+        y: 92,
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -448,7 +448,7 @@ define({
       wpoint: {
         kind: 1,
         x: 79, // bengvir: rudolf x: 92
-        y: 99, // bengvir: rudolf y: 108
+        y: 98, // bengvir: rudolf y: 108
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -485,7 +485,7 @@ define({
       wpoint: {
         kind: 1,
         x: 90, // bengvir: rudolf x: 92
-        y: 91, // bengvir: rudolf y: 110
+        y: 90, // bengvir: rudolf y: 110
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -523,7 +523,7 @@ define({
       wpoint: {
         kind: 1,
         x: 97, // bengvir: rudolf x: 92
-        y: 91, // bengvir: rudolf y: 112
+        y: 90, // bengvir: rudolf y: 112
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -1780,7 +1780,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 135, // bengvir: rudolf x: 150
+        x: 136, // bengvir: rudolf x: 150
         y: 128, // bengvir: rudolf y: 130
         weaponact: 23,
         attacking: 0,
@@ -2029,7 +2029,7 @@ define({
       opoint: {
         kind: 1,
         x: 130, // bengvir: rudolf x: 150
-        y: 96, // bengvir: rudolf y: 114
+        y: 95, // bengvir: rudolf y: 114
         action: 40,
         dvx: 35, // bengvir: rudolf dvx: 38
         dvy: -6,
@@ -2137,7 +2137,7 @@ define({
       opoint: {
         kind: 1,
         x: 130, // bengvir: rudolf x: 150
-        y: 96, // bengvir: rudolf y: 114
+        y: 95, // bengvir: rudolf y: 114
         action: 40,
         dvx: 33, // bengvir: rudolf dvx: 36
         dvy: -4,
@@ -2214,7 +2214,7 @@ define({
       opoint: {
         kind: 1,
         x: 130, // bengvir: rudolf x: 150
-        y: 96, // bengvir: rudolf y: 114
+        y: 95, // bengvir: rudolf y: 114
         action: 40,
         dvx: 33, // bengvir: rudolf dvx: 34
         dvy: -2,
@@ -2999,7 +2999,7 @@ define({
       sound: "1/017",
       wpoint: {
         kind: 1,
-        x: 78, // bengvir: rudolf x: 72
+        x: 77, // bengvir: rudolf x: 72
         y: 117, // bengvir: rudolf y: 84
         weaponact: 32,
         attacking: 0,
@@ -3054,7 +3054,7 @@ define({
       wpoint: {
         kind: 1,
         x: 92, // bengvir: rudolf x: 88
-        y: 88, // bengvir: rudolf y: 114
+        y: 87, // bengvir: rudolf y: 114
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -3081,7 +3081,7 @@ define({
       wpoint: {
         kind: 1,
         x: 75, // bengvir: rudolf x: 90
-        y: 96, // bengvir: rudolf y: 114
+        y: 94, // bengvir: rudolf y: 114
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -3162,7 +3162,7 @@ define({
       wpoint: {
         kind: 1,
         x: 108, // bengvir: rudolf x: 100
-        y: 90, // bengvir: rudolf y: 114
+        y: 89, // bengvir: rudolf y: 114
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -3189,7 +3189,7 @@ define({
       wpoint: {
         kind: 1,
         x: 92, // bengvir: rudolf x: 94
-        y: 88, // bengvir: rudolf y: 114
+        y: 87, // bengvir: rudolf y: 114
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -3216,7 +3216,7 @@ define({
       sound: "1/017",
       wpoint: {
         kind: 1,
-        x: 73, // bengvir: rudolf x: 72
+        x: 72,
         y: 52, // bengvir: rudolf y: 72
         weaponact: 35,
         attacking: 0,
@@ -3244,7 +3244,7 @@ define({
       wpoint: {
         kind: 1,
         x: 32, // bengvir: rudolf x: 34
-        y: 88, // bengvir: rudolf y: 98
+        y: 87, // bengvir: rudolf y: 98
         weaponact: 21,
         attacking: 0,
         cover: 0,
@@ -3275,7 +3275,7 @@ define({
       wpoint: {
         kind: 1,
         x: 63, // bengvir: rudolf x: 78
-        y: 100, // bengvir: rudolf y: 102
+        y: 98, // bengvir: rudolf y: 102
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -3308,7 +3308,7 @@ define({
       wpoint: {
         kind: 1,
         x: 76, // bengvir: rudolf x: 86
-        y: 109, // bengvir: rudolf y: 104
+        y: 108, // bengvir: rudolf y: 104
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -3341,7 +3341,7 @@ define({
       wpoint: {
         kind: 1,
         x: 89, // bengvir: rudolf x: 78
-        y: 121, // bengvir: rudolf y: 102
+        y: 119, // bengvir: rudolf y: 102
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -3381,8 +3381,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 75, // bengvir: rudolf x: 80
-        y: 98, // bengvir: rudolf y: 100
+        x: 77, // bengvir: rudolf x: 80
+        y: 85, // bengvir: rudolf y: 100
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -3423,7 +3423,7 @@ define({
       wpoint: {
         kind: 1,
         x: 90, // bengvir: rudolf x: 76
-        y: 121, // bengvir: rudolf y: 102
+        y: 106, // bengvir: rudolf y: 102
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -3887,7 +3887,7 @@ define({
       wpoint: {
         kind: 1,
         x: 86, // bengvir: rudolf x: 44
-        y: 86,
+        y: 85, // bengvir: rudolf y: 86
         weaponact: 26,
         attacking: 0,
         cover: 0,
@@ -5373,8 +5373,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 88, // bengvir: rudolf x: 90
-        y: 89, // bengvir: rudolf y: 80
+        x: 99, // bengvir: rudolf x: 90
+        y: 93, // bengvir: rudolf y: 80
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -5416,8 +5416,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 72,
-        y: 81, // bengvir: rudolf y: 70
+        x: 64, // bengvir: rudolf x: 72
+        y: 78, // bengvir: rudolf y: 70
         weaponact: 31,
         attacking: 0,
         cover: 1,

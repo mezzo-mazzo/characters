@@ -67,7 +67,7 @@ define({
       wpoint: {
         kind: 1,
         x: 48, // eizenkot: firen 58
-        y: 89, // eizenkot: firen 110
+        y: 90, // eizenkot: firen 110
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -108,7 +108,7 @@ define({
       wpoint: {
         kind: 1,
         x: 49, // eizenkot: firen 58
-        y: 90, // eizenkot: firen 108
+        y: 91, // eizenkot: firen 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -149,7 +149,7 @@ define({
       wpoint: {
         kind: 1,
         x: 50, // eizenkot: firen 54
-        y: 90, // eizenkot: firen 108
+        y: 92, // eizenkot: firen 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -190,7 +190,7 @@ define({
       wpoint: {
         kind: 1,
         x: 49, // eizenkot: firen 54
-        y: 90, // eizenkot: firen 108
+        y: 91, // eizenkot: firen 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -231,7 +231,7 @@ define({
       wpoint: {
         kind: 1,
         x: 63, // eizenkot: firen 64
-        y: 81, // eizenkot: firen 108
+        y: 82, // eizenkot: firen 108
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -281,7 +281,7 @@ define({
       wpoint: {
         kind: 1,
         x: 62, // eizenkot: firen 58
-        y: 85, // eizenkot: firen 110
+        y: 88, // eizenkot: firen 110
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -330,7 +330,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 55, // eizenkot: firen 56
+        x: 56,
         y: 87, // eizenkot: firen 110
         weaponact: 23,
         attacking: 0,
@@ -381,7 +381,7 @@ define({
       wpoint: {
         kind: 1,
         x: 52,
-        y: 84, // eizenkot: firen 112
+        y: 85, // eizenkot: firen 112
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -428,7 +428,7 @@ define({
       wpoint: {
         kind: 1,
         x: 106, // eizenkot: firen 120
-        y: 82, // eizenkot: firen 80
+        y: 81, // eizenkot: firen 80
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -465,7 +465,7 @@ define({
       wpoint: {
         kind: 1,
         x: 92, // eizenkot: firen 84
-        y: 87, // eizenkot: firen 100
+        y: 86, // eizenkot: firen 100
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -502,8 +502,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 57, // eizenkot: firen 38
-        y: 76, // eizenkot: firen 96
+        x: 58, // eizenkot: firen 38
+        y: 75, // eizenkot: firen 96
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -868,8 +868,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 116, // eizenkot: firen 82
-        y: 62, // eizenkot: firen 32
+        x: 117, // eizenkot: firen 82
+        y: 63, // eizenkot: firen 32
         weaponact: 32,
         attacking: 0,
         cover: 0,
@@ -901,8 +901,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 117, // eizenkot: firen 132
-        y: 100,
+        x: 120, // eizenkot: firen 132
+        y: 102, // eizenkot: firen 100
         weaponact: 23,
         attacking: 1,
         cover: 0,
@@ -934,8 +934,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 114, // eizenkot: firen 128
-        y: 108,
+        x: 116, // eizenkot: firen 128
+        y: 110, // eizenkot: firen 108
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -973,8 +973,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 75, // eizenkot: firen 90
-        y: 82, // eizenkot: firen 84
+        x: 90,
+        y: 84,
         weaponact: 33,
         attacking: 0,
         cover: 1,
@@ -1007,8 +1007,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 60, // eizenkot: firen 86
-        y: 82, // eizenkot: firen 80
+        x: 70, // eizenkot: firen 86
+        y: 83, // eizenkot: firen 80
         weaponact: 32,
         attacking: 0,
         cover: 1,
@@ -1040,8 +1040,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 114, // eizenkot: firen 130
-        y: 93, // eizenkot: firen 100
+        x: 121, // eizenkot: firen 130
+        y: 97, // eizenkot: firen 100
         weaponact: 24,
         attacking: 1,
         cover: 0,
@@ -1073,8 +1073,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 126, // eizenkot: firen 80
-        y: 71, // eizenkot: firen 100
+        x: 33, // eizenkot: firen 80
+        y: 84, // eizenkot: firen 100
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -1140,8 +1140,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 113, // eizenkot: firen 94
-        y: 63, // eizenkot: firen 18
+        x: 112, // eizenkot: firen 94
+        y: 67, // eizenkot: firen 18
         weaponact: 32,
         attacking: 2,
         cover: 0,
@@ -1291,8 +1291,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 113, // eizenkot: firen 130
-        y: 95, // eizenkot: firen 100
+        x: 120, // eizenkot: firen 130
+        y: 99, // eizenkot: firen 100
         weaponact: 24,
         attacking: 3,
         cover: 0,
@@ -1324,8 +1324,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 30, // eizenkot: firen 76
-        y: 86, // eizenkot: firen 100
+        x: 36, // eizenkot: firen 76
+        y: 85, // eizenkot: firen 100
         weaponact: 24,
         attacking: 3,
         cover: 0,
@@ -1391,8 +1391,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 113, // eizenkot: firen 94
-        y: 63, // eizenkot: firen 18
+        x: 112, // eizenkot: firen 94
+        y: 67, // eizenkot: firen 18
         weaponact: 32,
         attacking: 4,
         cover: 0,
@@ -1548,8 +1548,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 120, // eizenkot: firen 80
-        y: 32, // eizenkot: firen 30
+        x: 121, // eizenkot: firen 80
+        y: 33, // eizenkot: firen 30
         weaponact: 32,
         attacking: 0,
         cover: 0,
@@ -1621,7 +1621,7 @@ define({
       wpoint: {
         kind: 1,
         x: 65, // eizenkot: firen 66
-        y: 10, // eizenkot: firen 50
+        y: 11, // eizenkot: firen 50
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -1727,8 +1727,8 @@ define({
       sound: "1/008",
       wpoint: {
         kind: 1,
-        x: 106, // eizenkot: firen 90
-        y: 43, // eizenkot: firen 24
+        x: 105, // eizenkot: firen 90
+        y: 47, // eizenkot: firen 24
         weaponact: 33,
         attacking: 0,
         cover: 0,
@@ -1766,8 +1766,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 132, // eizenkot: firen 150
-        y: 136, // eizenkot: firen 130
+        x: 133, // eizenkot: firen 150
+        y: 138, // eizenkot: firen 130
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -2866,8 +2866,8 @@ define({
       sound: "1/017",
       wpoint: {
         kind: 1,
-        x: 81, // eizenkot: firen 74
-        y: 83, // eizenkot: firen 68
+        x: 83, // eizenkot: firen 74
+        y: 84, // eizenkot: firen 68
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -2892,8 +2892,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 22, // eizenkot: firen 34
-        y: 67, // eizenkot: firen 80
+        x: 21, // eizenkot: firen 34
+        y: 72, // eizenkot: firen 80
         weaponact: 21,
         attacking: 0,
         cover: 0,
@@ -3116,8 +3116,8 @@ define({
       sound: "1/009",
       wpoint: {
         kind: 1,
-        x: 87, // eizenkot: firen 68
-        y: 144, // eizenkot: firen 138
+        x: 86, // eizenkot: firen 68
+        y: 149, // eizenkot: firen 138
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -3156,8 +3156,8 @@ define({
       sound: "1/009",
       wpoint: {
         kind: 1,
-        x: 87, // eizenkot: firen 84
-        y: 144, // eizenkot: firen 158
+        x: 86, // eizenkot: firen 84
+        y: 149, // eizenkot: firen 158
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -3195,8 +3195,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 84,
-        y: 140,
+        x: 86, // eizenkot: firen 84
+        y: 149, // eizenkot: firen 140
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -3246,7 +3246,7 @@ define({
       wpoint: {
         kind: 1,
         x: 107, // eizenkot: firen 110
-        y: 68, // eizenkot: firen 78
+        y: 69, // eizenkot: firen 78
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -3334,7 +3334,7 @@ define({
       wpoint: {
         kind: 1,
         x: 107, // eizenkot: firen 112
-        y: 68, // eizenkot: firen 80
+        y: 69, // eizenkot: firen 80
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -3379,7 +3379,7 @@ define({
       wpoint: {
         kind: 1,
         x: 93, // eizenkot: firen 112
-        y: 71, // eizenkot: firen 80
+        y: 72, // eizenkot: firen 80
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -3499,7 +3499,7 @@ define({
       wpoint: {
         kind: 1,
         x: 88, // eizenkot: firen 64
-        y: 71, // eizenkot: firen 98
+        y: 72, // eizenkot: firen 98
         weaponact: 31,
         attacking: 0,
         cover: 0,
@@ -5215,7 +5215,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 86, // eizenkot: firen 78
+        x: 84, // eizenkot: firen 78
         y: 78, // eizenkot: firen 108
         weaponact: 20,
         attacking: 0,
@@ -5254,7 +5254,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 90, // eizenkot: firen 80
+        x: 88, // eizenkot: firen 80
         y: 80, // eizenkot: firen 112
         weaponact: 21,
         attacking: 0,
@@ -5293,7 +5293,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 47, // eizenkot: firen 56
+        x: 48, // eizenkot: firen 56
         y: 108, // eizenkot: firen 106
         weaponact: 23,
         attacking: 0,
@@ -5634,8 +5634,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 79, // eizenkot: firen 62
-        y: 85, // eizenkot: firen 102
+        x: 78, // eizenkot: firen 62
+        y: 87, // eizenkot: firen 102
         weaponact: 25,
         attacking: 0,
         cover: 1,
@@ -5673,8 +5673,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 79, // eizenkot: firen 62
-        y: 85, // eizenkot: firen 102
+        x: 78, // eizenkot: firen 62
+        y: 87, // eizenkot: firen 102
         weaponact: 25,
         attacking: 0,
         cover: 1,
@@ -5748,7 +5748,7 @@ define({
       wpoint: {
         kind: 1,
         x: 90, // eizenkot: firen 78
-        y: 107, // eizenkot: firen 92
+        y: 108, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -5781,7 +5781,7 @@ define({
       wpoint: {
         kind: 1,
         x: 79, // eizenkot: firen 52
-        y: 89, // eizenkot: firen 92
+        y: 90, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -5890,7 +5890,7 @@ define({
       wpoint: {
         kind: 1,
         x: 54, // eizenkot: firen 40
-        y: 80, // eizenkot: firen 92
+        y: 81, // eizenkot: firen 92
         weaponact: 29,
         attacking: 0,
         cover: 1,
@@ -5925,7 +5925,7 @@ define({
       wpoint: {
         kind: 1,
         x: 54, // eizenkot: firen 42
-        y: 80, // eizenkot: firen 88
+        y: 81, // eizenkot: firen 88
         weaponact: 29,
         attacking: 0,
         cover: 1,
@@ -5958,7 +5958,7 @@ define({
       wpoint: {
         kind: 1,
         x: 54, // eizenkot: firen 44
-        y: 80, // eizenkot: firen 92
+        y: 81, // eizenkot: firen 92
         weaponact: 29,
         attacking: 0,
         cover: 1,
@@ -5991,7 +5991,7 @@ define({
       wpoint: {
         kind: 1,
         x: 77, // eizenkot: firen 52
-        y: 96, // eizenkot: firen 92
+        y: 97, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6034,7 +6034,7 @@ define({
       wpoint: {
         kind: 1,
         x: 99, // eizenkot: firen 48
-        y: 78, // eizenkot: firen 92
+        y: 79, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6067,7 +6067,7 @@ define({
       wpoint: {
         kind: 1,
         x: 99, // eizenkot: firen 48
-        y: 78, // eizenkot: firen 92
+        y: 79, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6100,7 +6100,7 @@ define({
       wpoint: {
         kind: 1,
         x: 54, // eizenkot: firen 40
-        y: 80, // eizenkot: firen 92
+        y: 81, // eizenkot: firen 92
         weaponact: 29,
         attacking: 0,
         cover: 1,
@@ -6200,8 +6200,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 82, // eizenkot: firen 64
-        y: 99, // eizenkot: firen 92
+        x: 83, // eizenkot: firen 64
+        y: 100, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6277,7 +6277,7 @@ define({
       wpoint: {
         kind: 1,
         x: 103, // eizenkot: firen 54
-        y: 78, // eizenkot: firen 92
+        y: 79, // eizenkot: firen 92
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -6310,7 +6310,7 @@ define({
       wpoint: {
         kind: 1,
         x: 58, // eizenkot: firen 40
-        y: 80, // eizenkot: firen 92
+        y: 81, // eizenkot: firen 92
         weaponact: 29,
         attacking: 0,
         cover: 1,
@@ -6345,7 +6345,7 @@ define({
       wpoint: {
         kind: 1,
         x: 100, // eizenkot: firen 118
-        y: 82, // eizenkot: firen 78
+        y: 81, // eizenkot: firen 78
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -6379,7 +6379,7 @@ define({
       wpoint: {
         kind: 1,
         x: 82, // eizenkot: firen 84
-        y: 87, // eizenkot: firen 98
+        y: 86, // eizenkot: firen 98
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -6423,8 +6423,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 49, // eizenkot: firen 36
-        y: 76, // eizenkot: firen 98
+        x: 50, // eizenkot: firen 36
+        y: 75, // eizenkot: firen 98
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6483,7 +6483,7 @@ define({
       wpoint: {
         kind: 1,
         x: 100, // eizenkot: firen 118
-        y: 82, // eizenkot: firen 76
+        y: 81, // eizenkot: firen 76
         weaponact: 35,
         attacking: 0,
         cover: 0,
@@ -6542,7 +6542,7 @@ define({
       wpoint: {
         kind: 1,
         x: 105, // eizenkot: firen 108
-        y: 77, // eizenkot: firen 96
+        y: 76, // eizenkot: firen 96
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -6600,8 +6600,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 51, // eizenkot: firen 40
-        y: 76, // eizenkot: firen 96
+        x: 52, // eizenkot: firen 40
+        y: 75, // eizenkot: firen 96
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6660,7 +6660,7 @@ define({
       wpoint: {
         kind: 1,
         x: 105, // eizenkot: firen 108
-        y: 77, // eizenkot: firen 92
+        y: 76, // eizenkot: firen 92
         weaponact: 22,
         attacking: 0,
         cover: 0,
@@ -6708,7 +6708,7 @@ define({
       wpoint: {
         kind: 1,
         x: 104, // eizenkot: firen 98
-        y: 80, // eizenkot: firen 98
+        y: 81, // eizenkot: firen 98
         weaponact: 21,
         attacking: 0,
         cover: 0,
@@ -6740,8 +6740,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 90,
-        y: 78,
+        x: 93, // eizenkot: firen 90
+        y: 86, // eizenkot: firen 78
         weaponact: 20,
         attacking: 0,
         cover: 0,
@@ -6775,7 +6775,7 @@ define({
       wpoint: {
         kind: 1,
         x: 46, // eizenkot: firen 38
-        y: 75, // eizenkot: firen 112
+        y: 76, // eizenkot: firen 112
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -6808,7 +6808,7 @@ define({
       wpoint: {
         kind: 1,
         x: 45, // eizenkot: firen 30
-        y: 75, // eizenkot: firen 114
+        y: 76, // eizenkot: firen 114
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6852,7 +6852,7 @@ define({
       wpoint: {
         kind: 1,
         x: 44, // eizenkot: firen 28
-        y: 74, // eizenkot: firen 114
+        y: 75, // eizenkot: firen 114
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6886,7 +6886,7 @@ define({
       wpoint: {
         kind: 1,
         x: 45, // eizenkot: firen 30
-        y: 75, // eizenkot: firen 114
+        y: 76, // eizenkot: firen 114
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6920,7 +6920,7 @@ define({
       wpoint: {
         kind: 1,
         x: 44, // eizenkot: firen 28
-        y: 74, // eizenkot: firen 114
+        y: 75, // eizenkot: firen 114
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6964,7 +6964,7 @@ define({
       wpoint: {
         kind: 1,
         x: 45, // eizenkot: firen 30
-        y: 75, // eizenkot: firen 114
+        y: 76, // eizenkot: firen 114
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -6998,7 +6998,7 @@ define({
       wpoint: {
         kind: 1,
         x: 44, // eizenkot: firen 28
-        y: 74, // eizenkot: firen 114
+        y: 75, // eizenkot: firen 114
         weaponact: 25,
         attacking: 0,
         cover: 0,
@@ -7031,7 +7031,7 @@ define({
       wpoint: {
         kind: 1,
         x: 46, // eizenkot: firen 44
-        y: 75, // eizenkot: firen 114
+        y: 76, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7065,7 +7065,7 @@ define({
       wpoint: {
         kind: 1,
         x: 82, // eizenkot: firen 44
-        y: 80, // eizenkot: firen 114
+        y: 81, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7098,7 +7098,7 @@ define({
       wpoint: {
         kind: 1,
         x: 78, // eizenkot: firen 44
-        y: 55, // eizenkot: firen 114
+        y: 56, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7131,7 +7131,7 @@ define({
       wpoint: {
         kind: 1,
         x: 80, // eizenkot: firen 44
-        y: 55, // eizenkot: firen 114
+        y: 56, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7164,7 +7164,7 @@ define({
       wpoint: {
         kind: 1,
         x: 82, // eizenkot: firen 44
-        y: 54, // eizenkot: firen 114
+        y: 55, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7207,8 +7207,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 56, // eizenkot: firen 44
-        y: 40, // eizenkot: firen 114
+        x: 57, // eizenkot: firen 44
+        y: 41, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7241,8 +7241,8 @@ define({
       sound: "1/020",
       wpoint: {
         kind: 1,
-        x: 56, // eizenkot: firen 44
-        y: 40, // eizenkot: firen 114
+        x: 57, // eizenkot: firen 44
+        y: 41, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7275,7 +7275,7 @@ define({
       wpoint: {
         kind: 1,
         x: 42, // eizenkot: firen 44
-        y: 59, // eizenkot: firen 114
+        y: 60, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7307,8 +7307,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 40, // eizenkot: firen 44
-        y: 70, // eizenkot: firen 114
+        x: 41, // eizenkot: firen 44
+        y: 71, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -7341,7 +7341,7 @@ define({
       wpoint: {
         kind: 1,
         x: 82, // eizenkot: firen 44
-        y: 80, // eizenkot: firen 114
+        y: 81, // eizenkot: firen 114
         weaponact: 24,
         attacking: 0,
         cover: 0,

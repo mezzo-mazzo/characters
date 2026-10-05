@@ -230,8 +230,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 57, // lapid: davis 46
-        y: 102, // lapid: davis 106
+        x: 58, // lapid: davis 46
+        y: 103, // lapid: davis 106
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -381,7 +381,7 @@ define({
       wpoint: {
         kind: 1,
         x: 60, // lapid: davis 72
-        y: 104,
+        y: 105, // lapid: davis 104
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -551,8 +551,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 74, // lapid: davis 68
-        y: 6, // lapid: davis 44
+        x: 73, // lapid: davis 68
+        y: 7, // lapid: davis 44
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -589,7 +589,7 @@ define({
       wpoint: {
         kind: 1,
         x: 73, // lapid: davis 68
-        y: 7, // lapid: davis 44
+        y: 9, // lapid: davis 44
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -625,7 +625,7 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 71, // lapid: davis 68
+        x: 72, // lapid: davis 68
         y: 7, // lapid: davis 46
         weaponact: 10,
         attacking: 0,
@@ -663,7 +663,7 @@ define({
       wpoint: {
         kind: 1,
         x: 70, // lapid: davis 68
-        y: 6, // lapid: davis 46
+        y: 7, // lapid: davis 46
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -700,8 +700,8 @@ define({
       },
       wpoint: {
         kind: 1,
-        x: 62, // lapid: davis 74
-        y: 7, // lapid: davis 48
+        x: 61, // lapid: davis 74
+        y: 8, // lapid: davis 48
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -1829,8 +1829,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 123, // lapid: davis 134
-        y: 121, // lapid: davis 142
+        x: 125, // lapid: davis 134
+        y: 123, // lapid: davis 142
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -2989,8 +2989,8 @@ define({
       hit_Uj: 290,
       wpoint: {
         kind: 1,
-        x: 48, // lapid: davis 86
-        y: 113, // lapid: davis 94
+        x: 51, // lapid: davis 86
+        y: 116, // lapid: davis 94
         weaponact: 31,
         attacking: 0,
         cover: 1,
@@ -3097,8 +3097,8 @@ define({
       hit_Uj: 290,
       wpoint: {
         kind: 1,
-        x: 49, // lapid: davis 88
-        y: 117, // lapid: davis 96
+        x: 51, // lapid: davis 88
+        y: 116, // lapid: davis 96
         weaponact: 30,
         attacking: 0,
         cover: 1,
@@ -3415,7 +3415,7 @@ define({
       wpoint: {
         kind: 1,
         x: 81, // lapid: davis 68
-        y: 142, // lapid: davis 150
+        y: 144, // lapid: davis 150
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -3454,8 +3454,8 @@ define({
       sound: "1/009",
       wpoint: {
         kind: 1,
-        x: 85, // lapid: davis 84
-        y: 144, // lapid: davis 158
+        x: 84,
+        y: 158,
         weaponact: 10,
         attacking: 0,
         cover: 0,
@@ -3799,7 +3799,7 @@ define({
       wpoint: {
         kind: 1,
         x: 98, // lapid: davis 84
-        y: 82, // lapid: davis 86
+        y: 83, // lapid: davis 86
         weaponact: 30,
         attacking: 0,
         cover: 0,
@@ -5509,7 +5509,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 104, // lapid: davis 78
+        x: 105, // lapid: davis 78
         y: 76, // lapid: davis 82
         weaponact: 20,
         attacking: 0,
@@ -5548,7 +5548,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 125, // lapid: davis 92
+        x: 126, // lapid: davis 92
         y: 59, // lapid: davis 82
         weaponact: 21,
         attacking: 0,
@@ -5587,8 +5587,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 65, // lapid: davis 46
-        y: 81, // lapid: davis 110
+        x: 61, // lapid: davis 46
+        y: 79, // lapid: davis 110
         weaponact: 23,
         attacking: 0,
         cover: 0,
@@ -5620,8 +5620,8 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 75, // lapid: davis 54
-        y: 73, // lapid: davis 108
+        x: 70, // lapid: davis 54
+        y: 72, // lapid: davis 108
         weaponact: 24,
         attacking: 0,
         cover: 0,
@@ -5694,7 +5694,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 103, // lapid: davis 90
+        x: 102, // lapid: davis 90
         y: 105, // lapid: davis 100
         weaponact: 20,
         attacking: 0,
@@ -5776,7 +5776,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 103, // lapid: davis 90
+        x: 102, // lapid: davis 90
         y: 105, // lapid: davis 94
         weaponact: 20,
         attacking: 0,
@@ -5843,7 +5843,7 @@ define({
       hit_j: 0,
       wpoint: {
         kind: 1,
-        x: 101, // lapid: davis 114
+        x: 100, // lapid: davis 114
         y: 141, // lapid: davis 148
         weaponact: 24,
         attacking: 0,
