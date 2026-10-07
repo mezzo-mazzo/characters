@@ -17,8 +17,14 @@ define(function()
 		
 		this.TU = function()
 		{	//this is the main AI routine that will be called once every 2 or 3 TU
-			if( cc%100===0) //load a new target once in a while
+			if( cc%100===0 || !target) //load a new target once in a while, or right away if there is none
 				load_target();
+			if( !target) //no living opponent: stand still instead of crashing
+			{
+				for (var k=0; k<DIR.length; k++)
+					controller.key(DIR[k],0); //release held keys
+				return;
+			}
 			var dx = target.ps.x-self.ps.x;
 			var dz = target.ps.z-self.ps.z;
 			if( ((dx>0?1:-1)===self.dirh() && abs(dx)<400 && abs(dz)<20 && (self.state()===2 || self.state()===5)) // 2x port: 200->400, 10->20
@@ -97,10 +103,12 @@ define(function()
 			targets.sort(function(a,b){
 				return a.dist-b.dist; //sort according to distance
 			});
-			if( rand(2)===0)
+			if( targets.length===0)
+				target = null; //no opponent to chase
+			else if( rand(2)===0)
 				target = targets[rand(targets.length)].obj; //select a random opponent as target
 			else
-				target = targets[0]?targets[0].obj:null; //select the closest opponent
+				target = targets[0].obj; //select the closest opponent
 		}
 	}
 	AIscript.type = AIscript.prototype.type = 'AIscript'; //must define a type
